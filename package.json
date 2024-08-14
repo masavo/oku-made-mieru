@@ -9,13 +9,15 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:*"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "oku-made-mieru.helloWorld",
-        "title": "Hello World"
+        "command": "oku-made-mieru.convertToJapanese",
+        "title": "Convert to Japanese"
       }
     ]
   },
