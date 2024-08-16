@@ -40,7 +40,7 @@ describe('HoverProvider', () => {
 
 		const result = hoverProvider.provideHover(mockDocument, {} as vscode.Position, {} as vscode.CancellationToken);
 		expect(result).toBeInstanceOf(vscode.Hover);
-		expect((result as vscode.Hover).contents[0]).toBe('日本語表記: 1万');
+		expect((result as vscode.Hover).contents).toEqual('日本語表記: 1万');
 	});
 
 	test('provideHover returns null for number 9999 or less', () => {
