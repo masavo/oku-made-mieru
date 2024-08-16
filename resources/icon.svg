@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" fill="#4A86E8" rx="16" ry="16"/>
+  <text x="64" y="30" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" dominant-baseline="central">123,456,789</text>
+  <path d="M64 40 L64 55" stroke="white" stroke-width="2" stroke-linecap="round" marker-end="url(#arrowhead)"/>
+  <text x="64" y="70" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" dominant-baseline="central">1億2345万6789</text>
+  <text x="64" y="100" font-family="Arial, sans-serif" font-size="40" fill="white" text-anchor="middle" dominant-baseline="central">億</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="white" />
+    </marker>
+  </defs>
+</svg>
