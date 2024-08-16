@@ -1,0 +1,2 @@
+
+iconvert -density 300 ../resources/icon.svg -resize 128x128 ../resources/icon.png
