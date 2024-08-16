@@ -1,7 +1,8 @@
+import { describe, test } from '@jest/globals';
 import * as assert from 'assert';
 import { JapaneseNumberConverter } from '../japaneseNumberConverter';
 
-suite('Extension Test Suite', () => {
+describe('Extension Test Suite', () => {
 	const converter = new JapaneseNumberConverter();
 
 	test('基本的な数値変換', () => {
