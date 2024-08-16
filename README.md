@@ -1,71 +1,93 @@
-# oku-made-mieru README
+# 億までみえーる (Oku Made Mieru)
 
-This is the README for your extension "oku-made-mieru". After writing up a brief description, we recommend including the following sections.
+## 概要
 
-## Features
+「億までみえーる」は、Visual Studio Code用の拡張機能で、選択された数値を億だけでなく、無量大数単位まで変換して表示します。
+これにより、非常に大きな数値の理解とが容易になります。
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## 主な機能
 
-For example if there is an image subfolder under your extension project workspace:
+- 選択された数値を日本語表記（無量大数単位まで）に変換
+- ステータスバーでの変換結果の表示(設定でON/OFF可能)
+- ホバー機能による数値の日本語表記の表示(設定でON/OFF可能)
 
-\!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## 設定
 
-## Requirements
+以下の設定をカスタマイズできます：
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- `okuMadeMieru.enableStatusBar`: ステータスバーの表示/非表示を切り替えます。
+- `okuMadeMieru.enableHover`: ホバー機能の有効/無効を切り替えます。
 
-## Extension Settings
+設定の変更手順：
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. `Cmd+,`（macOS）または`Ctrl+,`（Windows/Linux）で設定を開きます。
+2. 検索バーに「oku made mieru」と入力します。
+3. 表示された設定を必要に応じて調整します。
 
-For example:
+## 使用方法
 
-This extension contributes the following settings:
+1. テキストエディタ内で数値を選択します。
+2. 選択した数値の日本語表記（無量大数単位まで）がステータスバーに表示されます。
+3. 数値にマウスを合わせると、ホバーで日本語表記が表示されます。
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## インストール方法
 
-## Known Issues
+1. VS Codeを起動します。
+2. 左側のアクティビティバーから拡張機能アイコン（四角形のパズルピース）をクリックします。
+3. 検索バーに「億までみえーる」または「Oku Made Mieru」と入力します。
+4. 検索結果から「億までみえーる」を見つけ、「インストール」ボタンをクリックします。
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## 開発者向け情報
 
-## Release Notes
+### 環境構築
 
-Users appreciate release notes as you update your extension.
+1. リポジトリのクローン：
+   ```
+   git clone https://github.com/yourusername/oku-made-mieru.git
+   ```
+2. プロジェクトディレクトリへの移動：
+   ```
+   cd oku-made-mieru
+   ```
+3. 依存パッケージのインストール：
+   ```
+   npm install
+   ```
 
-### 1.0.0
+### ビルドとテスト
 
-Initial release of ...
+- ビルドの実行：
+  ```
+  npm run compile
+  ```
+- テストの実行：
+  ```
+  npm test
+  ```
+- 開発用
+	```
+	npm run watch
+	```
 
-### 1.0.1
+### デバッグ
 
-Fixed issue #.
+1. VS Codeでプロジェクトを開きます。
+2. `F5`キーを押してデバッグを開始します。
+3. 新しいウィンドウが開き、拡張機能がロードされます。
 
-### 1.1.0
+### コントリビューション
 
-Added features X, Y, and Z.
+1. このリポジトリをフォークします。
+2. 新しいブランチを作成：`git checkout -b feature/新機能名`
+3. 変更を加え、コミット：`git commit -am '新機能の追加: 機能の説明'`
+4. ブランチをプッシュ：`git push origin feature/新機能名`
+5. プルリクエストを作成します。
 
----
+## フィードバック
 
-## Following extension guidelines
+バグ報告や機能リクエストは、GitHubのIssueトラッカーをご利用ください。
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+## ライセンス
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+本プロジェクトはMITライセンスの下で公開されています。詳細は[LICENSE](LICENSE)ファイルをご覧ください。
