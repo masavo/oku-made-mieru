@@ -1,5 +1,7 @@
 # 億までみえーる (Oku Made Mieru)
 
+![アイコン](resources/icon.svg)
+
 ## 概要
 
 「億までみえーる」は、Visual Studio Code用の拡張機能で、選択された数値を億だけでなく、無量大数単位まで変換して表示します。
