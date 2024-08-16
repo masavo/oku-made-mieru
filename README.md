@@ -9,11 +9,9 @@ https://marketplace.visualstudio.com/items?itemName=masavo.oku-made-mieru
 「億までみえーる」は、Visual Studio Code 用の拡張機能で、オンマウスした数値を日本語表記(万進法)で表示します。
 これにより、非常に大きな数値の理解とが容易になります。
 
-![sample](resources/sample.gif)
-
 ### sample
 
-![sample](resources/sample.gif)
+![sample](resources/sample.png)
 
 ## 主な機能
 
