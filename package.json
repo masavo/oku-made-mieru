@@ -19,7 +19,16 @@
         "command": "oku-made-mieru.convertToJapanese",
         "title": "Convert to Japanese"
       }
-    ]
+    ],
+    "configuration": {
+      "properties": {
+        "okuMadeMieru.enableOutputChannel": {
+          "type": "boolean",
+          "default": false,
+          "description": "出力チャンネルを有効にします。デバッグ目的で使用します。"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
