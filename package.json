@@ -5,7 +5,7 @@
   "publisher": "masavo",
   "repository": "https://github.com/masavo/oku-made-mieru",
   "icon": "resources/icon.png",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.91.1"
   },
