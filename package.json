@@ -1,13 +1,13 @@
 {
   "name": "oku-made-mieru",
   "displayName": "億までミエール",
-  "description": "背選択範囲の数値が万進法(数値+数詞の漢字表記)でわかります。",
+  "description": "オンマウスした数値が万進法(数値+数詞の漢字表記)でわかります。",
   "publisher": "masavo",
   "repository": "https://github.com/masavo/oku-made-mieru",
   "icon": "resources/icon.png",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.92.0"
+    "vscode": "^1.91.1"
   },
   "categories": [
     "Other"
@@ -48,7 +48,7 @@
     "@jest/globals": "^29.7.0",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
-    "@types/vscode": "^1.92.0",
+    "@types/vscode": "^1.91.1",
     "@typescript-eslint/eslint-plugin": "^7.4.0",
     "@typescript-eslint/parser": "^7.4.0",
     "@vscode/test-cli": "^0.0.8",
