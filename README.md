@@ -1,6 +1,6 @@
 # 億までみえーる (Oku Made Mieru)
 
-![アイコン](resources/icon.svg)
+![アイコン](resources/icon.png)
 
 ## 概要
 
